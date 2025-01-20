@@ -1,0 +1,56 @@
+.container {
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  left: 0; 
+  width: 350px;
+  bottom: 0;
+  background-color: #f9f9f9; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  padding: 20px; 
+  transition: 0.5s;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 5px;
+}
+.difficulty {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+.tag {
+  background-color: #eee;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.close{
+  /* visibility: collapse;
+  opacity: 0; */
+  left: -350px;
+}
+.open{
+  /* visibility: visible;
+  opacity: 1; */
+  left: 0;
+}

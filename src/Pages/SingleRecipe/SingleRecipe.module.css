@@ -1,0 +1,101 @@
+.card {
+  margin: 20px auto;
+  width: 800px;
+  height: auto;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cookTimeMinutes {
+  width: 50px;
+  height: 50px;
+  background-color: #FFFFFF;
+  border: 3px solid #000000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.rating {
+  width: 50px;
+  height: 50px;
+  background-color: #FFFFFF;
+  border: 3px solid #000000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.image {
+  grid-column: 1;
+  width: 460px;
+  height: 460px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.tags {
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.ingredients {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.ingredientTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.instructions {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.instructionTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}

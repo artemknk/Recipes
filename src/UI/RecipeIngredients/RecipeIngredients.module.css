@@ -1,0 +1,11 @@
+.ingredient::before {
+  content: "• ";
+}
+.ingredient {
+  font-size: 14px;
+  text-decoration-line: underline;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}

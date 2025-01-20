@@ -1,0 +1,10 @@
+.instruction::before {
+  content: "• ";
+}
+.instruction {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}

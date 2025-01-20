@@ -1,0 +1,9 @@
+.difficulty {
+  font-size: 12px;
+  font-style: italic;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 0;
+  background-color: #7e8ddb;
+  cursor: pointer;
+}
